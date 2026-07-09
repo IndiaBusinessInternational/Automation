@@ -4,6 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IBI Automation Dashboard</title>
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="India Business International">
+<meta property="og:title" content="IBI Automation Dashboard">
+<meta property="og:description" content="Monitor IBI automations at a glance — job statuses, schedules and history.">
+<meta property="og:image" content="og-banner.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="IBI Automation Dashboard — India Business International">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IBI Automation Dashboard">
+<meta name="twitter:description" content="Monitor IBI automations at a glance — job statuses, schedules and history.">
+<meta name="twitter:image" content="og-banner.png">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%20width%3D%2232%22%20height%3D%2232%22%3E%0A%20%20%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%23000000%22/%3E%0A%20%20%3Ctext%20x%3D%2216%22%20y%3D%2222%22%20%0A%20%20%20%20font-family%3D%22Roboto%2CArial%2Csans-serif%22%20%0A%20%20%20%20font-weight%3D%22900%22%20%0A%20%20%20%20font-size%3D%2213.5%22%20%0A%20%20%20%20fill%3D%22%2300c5ff%22%20%0A%20%20%20%20text-anchor%3D%22middle%22%20%0A%20%20%20%20letter-spacing%3D%220.5%22%3EIBI%3C/text%3E%0A%3C/svg%3E">
     <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%20width%3D%2232%22%20height%3D%2232%22%3E%0A%20%20%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%23000000%22/%3E%0A%20%20%3Ctext%20x%3D%2216%22%20y%3D%2222%22%20%0A%20%20%20%20font-family%3D%22Roboto%2CArial%2Csans-serif%22%20%0A%20%20%20%20font-weight%3D%22900%22%20%0A%20%20%20%20font-size%3D%2213.5%22%20%0A%20%20%20%20fill%3D%22%2300c5ff%22%20%0A%20%20%20%20text-anchor%3D%22middle%22%20%0A%20%20%20%20letter-spacing%3D%220.5%22%3EIBI%3C/text%3E%0A%3C/svg%3E">
     <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%20width%3D%2232%22%20height%3D%2232%22%3E%0A%20%20%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%23000000%22/%3E%0A%20%20%3Ctext%20x%3D%2216%22%20y%3D%2222%22%20%0A%20%20%20%20font-family%3D%22Roboto%2CArial%2Csans-serif%22%20%0A%20%20%20%20font-weight%3D%22900%22%20%0A%20%20%20%20font-size%3D%2213.5%22%20%0A%20%20%20%20fill%3D%22%2300c5ff%22%20%0A%20%20%20%20text-anchor%3D%22middle%22%20%0A%20%20%20%20letter-spacing%3D%220.5%22%3EIBI%3C/text%3E%0A%3C/svg%3E">
@@ -94,13 +108,15 @@ body::before{
   display:flex;
   align-items:center;
   justify-content:center;
+  height:72px;
   padding:0;
   overflow:hidden;
 }
 .logo-hero img{
-  width:100%;
-  max-width:900px;
-  height:auto;
+  width:auto;
+  max-width:100%;
+  height:100%;
+  object-fit:contain;
   display:block;
   margin:0 auto;
 }
@@ -585,15 +601,19 @@ body::before{
   <div class="topbar">
     <div class="topbar-left">
       <div class="dash-title">Automation Dashboard</div>
-      <div class="dash-sub">30 Integrated Tools &nbsp;·&nbsp; iINTELLIGENCEi</div>
+      <div class="dash-sub">32 Integrated Tools &nbsp;·&nbsp; iINTELLIGENCEi</div>
       <div class="ver-changelog">
-        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v2.4 &nbsp;LIVE</div>
+        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v2.6 &nbsp;LIVE</div>
         <div class="ver-changelog-popup">
           <div class="vcl-title">Version History</div>
           <div class="vcl-row vcl-current">
+            <span class="vcl-ver">v2.6</span>
+            <span class="vcl-desc">32 tools · India Intelligence International &amp; IBI Documents added · Stock Availability input link added · standard header height</span>
+            <span class="vcl-tag">Current</span>
+          </div>
+          <div class="vcl-row">
             <span class="vcl-ver">v2.4</span>
             <span class="vcl-desc">30 tools · IBI Proforma &amp; Tax Invoice Generator, Income Tax Report Generator added</span>
-            <span class="vcl-tag">Current</span>
           </div>
           <div class="vcl-row">
             <span class="vcl-ver">v2.3</span>
@@ -833,9 +853,10 @@ body::before{
         </div>
         <div class="actions">
           <div class="btn-row">
-            <a href="https://docs.google.com/spreadsheets/d/1bp0OpZJKWB3-xEDKAgk5EErQ4JVg3uwmF2QAM35K6lA/edit?gid=0#gid=0" target="_blank" class="btn-out btn-full"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>View Stock Sheet</a>
+            <a href="https://stock.indiabusinessinternational.online/" target="_blank" class="btn-in"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><path d="M10 14L21 3"/><path d="M21 15v6H3V3h6"/></svg>Open Tool</a>
+            <a href="https://docs.google.com/spreadsheets/d/1bp0OpZJKWB3-xEDKAgk5EErQ4JVg3uwmF2QAM35K6lA/edit?gid=0#gid=0" target="_blank" class="btn-out"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>View Sheet</a>
           </div>
-          <div class="c-url">docs.google.com — Stock Availability</div>
+          <div class="c-url">stock.indiabusinessinternational.online</div>
         </div>
       </div>
 
@@ -866,7 +887,7 @@ body::before{
 
   <!-- Marketplace -->
   <section class="cat">
-    <div class="cat-header"><span class="cat-icon">🛒</span><span class="cat-title">Marketplace</span><span class="cat-count">3 Tools</span></div>
+    <div class="cat-header"><span class="cat-icon">🛒</span><span class="cat-title">Marketplace</span><span class="cat-count">4 Tools</span></div>
     <div class="grid">
 
       <div class="card">
@@ -893,6 +914,19 @@ body::before{
             <a href="https://docs.google.com/spreadsheets/d/1Ul7cQKiFvGBgrKgfVlePRoDNro-KBiOwRS6wV55almw/edit?gid=234936915#gid=234936915" target="_blank" class="btn-out"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>View Sheet</a>
           </div>
           <div class="c-url">indiabusinessinternational.online/admin.html</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <div class="c-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00c5ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <div class="c-name">India Intelligence International</div>
+        </div>
+        <div class="actions">
+          <div class="btn-row">
+            <a href="https://indiabusinessinternational.github.io/III-Website/" target="_blank" class="btn-in btn-full"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><path d="M10 14L21 3"/><path d="M21 15v6H3V3h6"/></svg>Open Site</a>
+          </div>
+          <div class="c-url">indiabusinessinternational.github.io/III-Website</div>
         </div>
       </div>
 
@@ -1019,7 +1053,7 @@ body::before{
 
   <!-- Pricing Strategy -->
   <section class="cat">
-    <div class="cat-header"><span class="cat-icon">💡</span><span class="cat-title">Pricing Strategy</span><span class="cat-count">4 Tools</span></div>
+    <div class="cat-header"><span class="cat-icon">💡</span><span class="cat-title">Pricing Strategy</span><span class="cat-count">5 Tools</span></div>
     <div class="grid">
 
       <div class="card">
@@ -1074,6 +1108,20 @@ body::before{
             <a href="https://docs.google.com/spreadsheets/d/1NAGUMsMjvsAGrTa_o0jt1NTD2uJOZPCSw3Qqbg68pVw/edit?gid=1465097675#gid=1465097675" target="_blank" class="btn-out"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>View Sheet</a>
           </div>
           <div class="c-url">indiabusinessinternational.github.io/PersonalTransactionsTracker</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <div class="c-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00c5ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></div>
+          <div class="c-name">IBI Documents</div>
+        </div>
+        <div class="actions">
+          <div class="btn-row">
+            <a href="https://docs.indiabusinessinternational.online/" target="_blank" class="btn-in"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><path d="M10 14L21 3"/><path d="M21 15v6H3V3h6"/></svg>Open Tool</a>
+            <a href="https://drive.google.com/drive/u/0/folders/1naq8Nthpxi8TJ4K2e0JT31F6-wQUErSY" target="_blank" class="btn-out"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>View Drive</a>
+          </div>
+          <div class="c-url">docs.indiabusinessinternational.online</div>
         </div>
       </div>
 
