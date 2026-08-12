@@ -603,13 +603,17 @@ body::before{
       <div class="dash-title">Automation Dashboard</div>
       <div class="dash-sub">39 Integrated Tools &nbsp;·&nbsp; iINTELLIGENCEi</div>
       <div class="ver-changelog">
-        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v3.5 &nbsp;LIVE</div>
+        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v3.6 &nbsp;LIVE</div>
         <div class="ver-changelog-popup">
           <div class="vcl-title">Version History</div>
           <div class="vcl-row vcl-current">
+            <span class="vcl-ver">v3.6</span>
+            <span class="vcl-desc">The second button on IBI Staff Supervision now opens the supervision BACKEND CODE, not the log sheet. Going via the sheet was what created a duplicate script project with the same name &mdash; fixes pasted into it save without complaint and never run. This link goes straight to the one real project.</span>
+            <span class="vcl-tag">Current</span>
+          </div>
+          <div class="vcl-row">
             <span class="vcl-ver">v3.5</span>
             <span class="vcl-desc">The IBI Staff Supervision log button is back, now labelled "View Log" and carrying a warning. The link was always correct &mdash; the mistake was using the sheet as a route to the code. Opening Extensions &rarr; Apps Script from a sheet creates a second script project with the same name, and fixes pasted there do nothing. Reach the script from My Triggers &rarr; ingestAll &rarr; Open project instead.</span>
-            <span class="vcl-tag">Current</span>
           </div>
           <div class="vcl-row">
             <span class="vcl-ver">v3.4</span>
@@ -713,7 +717,7 @@ body::before{
                  the old code. Hence the explicit label and the warning in the tooltip:
                  this button is for READING the log, never for reaching the script.
                  The script is reached from My Triggers → ingestAll → Open project. -->
-            <a href="https://docs.google.com/spreadsheets/d/1fgjf4ML7g1epFEM1L-T4cOEkdvrNynU0Blxza24pLvk/edit" target="_blank" class="btn-out" title="Permanent activity log — every recorded change. ⚠ Read only: do NOT open Extensions → Apps Script from this sheet, it creates a duplicate supervision project."><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>View Log</a>
+            <a href="https://script.google.com/home/projects/1pGQ0oivgrtVaGj8K8qSa4RzaErGX-aOVfdBPWZx8oEmRoXkoa0P6Pi0o/edit" target="_blank" class="btn-out" title="The ONE real supervision backend (project id 1pGQ0oiv…). A second project with this same name exists, bound to the log sheet — code pasted there saves fine and does nothing. Always come here, or via My Triggers → ingestAll → Open project."><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>Backend Code</a>
           </div>
           <div class="c-url">supervision.indiabusinessinternational.online &nbsp;·&nbsp; CEO password required</div>
         </div>
