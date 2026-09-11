@@ -298,7 +298,11 @@ body::before{
 
 /* Action buttons */
 .actions{display:flex;flex-direction:column;gap:7px;}
-.btn-row{display:flex;gap:7px;}
+/* wrap: a card with three buttons (Listings Master) would otherwise push the
+   third one outside the card, because a flex item will not shrink below its
+   own text. Cards with one or two buttons still fit on one line and are
+   untouched. */
+.btn-row{display:flex;gap:7px;flex-wrap:wrap;}
 
 .btn-in{
   flex:1;
@@ -601,15 +605,19 @@ body::before{
   <div class="topbar">
     <div class="topbar-left">
       <div class="dash-title">Automation Dashboard</div>
-      <div class="dash-sub">45 Integrated Tools &nbsp;·&nbsp; iINTELLIGENCEi</div>
+      <div class="dash-sub">46 Integrated Tools &nbsp;·&nbsp; iINTELLIGENCEi</div>
       <div class="ver-changelog">
-        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v4.3 &nbsp;LIVE</div>
+        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v4.4 &nbsp;LIVE</div>
         <div class="ver-changelog-popup">
           <div class="vcl-title">Version History</div>
           <div class="vcl-row vcl-current">
+            <span class="vcl-ver">v4.4</span>
+            <span class="vcl-desc">46 tools &middot; <b>IBI Product Listings Master</b> added to SaaS Digital Products &mdash; the subscription tool that takes one product record and writes the listing each marketplace wants (Amazon India, Amazon Bazaar, Flipkart, Shopsy, Meesho, ShopClues, IBI Marketplace and 7 more), inside every platform's own limits and rules, with Legal Metrology checks, a score out of 100, live keyword suggestions and that platform's own upload sheet. Cloudflare Pages + KV at listingsmaster., with Open App, Sales Page and the Accounts console.</span>
+            <span class="vcl-tag">Current</span>
+          </div>
+          <div class="vcl-row">
             <span class="vcl-ver">v4.3</span>
             <span class="vcl-desc">45 tools &middot; <b>IBI Gold Mines</b> moved to its own subdomain &mdash; the card now opens <b>gold.indiabusinessinternational.online</b> instead of the GitHub Pages project URL, after the DNS record was created and the HTTPS certificate issued. No tool added or removed; the count is unchanged.</span>
-            <span class="vcl-tag">Current</span>
           </div>
           <div class="vcl-row">
             <span class="vcl-ver">v4.2</span>
@@ -1403,7 +1411,7 @@ body::before{
 
   <!-- SaaS Digital Products -->
   <section class="cat">
-    <div class="cat-header"><span class="cat-icon">💼</span><span class="cat-title">SaaS Digital Products</span><span class="cat-count">1 Product</span></div>
+    <div class="cat-header"><span class="cat-icon">💼</span><span class="cat-title">SaaS Digital Products</span><span class="cat-count">2 Products</span></div>
     <div class="grid">
 
       <div class="card">
@@ -1417,6 +1425,21 @@ body::before{
             <a href="https://pos.indiabusinessinternational.online/admin" target="_blank" class="btn-in" title="Issue, renew and block licence keys — needs your GitHub token, saved only in your browser."><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>Licences</a>
           </div>
           <div class="c-url">pos.indiabusinessinternational.online &nbsp;·&nbsp; Cloudflare Pages &nbsp;·&nbsp; 11 Indian languages &nbsp;·&nbsp; subscription SaaS</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <div class="c-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00c5ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16"/><path d="M4 11h10"/><path d="M4 16h7"/><circle cx="17.5" cy="15.5" r="3.5"/><path d="m20.5 18.5 2 2"/></svg></div>
+          <div class="c-name">IBI Product Listings Master</div>
+        </div>
+        <div class="actions">
+          <div class="btn-row">
+            <a href="https://listingsmaster.indiabusinessinternational.online/app/" target="_blank" class="btn-in" title="Enter a product once and get the listing every marketplace wants — Amazon India, Amazon Bazaar, Flipkart, Shopsy, Meesho, ShopClues, IBI Marketplace and 7 more. Dynamic SEO, compliance checks, a score out of 100 and each platform's own upload sheet. Free plan, no card."><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><path d="M10 14L21 3"/><path d="M21 15v6H3V3h6"/></svg>Open App</a>
+            <a href="https://listingsmaster.indiabusinessinternational.online/" target="_blank" class="btn-in" title="The public sales page — how it works, the channel list and the plan prices."><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M7 14h6"/></svg>Pricing</a>
+            <a href="https://listingsmaster.indiabusinessinternational.online/admin" target="_blank" class="btn-in" title="Owner console — look up an account, set or extend its plan after a manual UPI payment, list every account. Needs the admin token, saved only in your browser."><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>Accounts</a>
+          </div>
+          <div class="c-url">listingsmaster.indiabusinessinternational.online &nbsp;·&nbsp; Cloudflare Pages + KV &nbsp;·&nbsp; 13 marketplaces &nbsp;·&nbsp; subscription SaaS</div>
         </div>
       </div>
 
