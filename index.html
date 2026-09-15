@@ -374,6 +374,80 @@ body::before{
 .foot-txt b{color:var(--accent);opacity:.6;}
 .foot-left{display:flex;align-items:center;}
 
+/* ── SEARCH ── */
+[hidden]{display:none!important;}
+.topbar{flex-wrap:wrap;}
+.topbar-left{min-width:0;}
+.search-wrap{
+  position:relative;
+  flex:1 1 320px;
+  max-width:460px;
+  min-width:0;
+}
+.search-ico{
+  position:absolute;left:12px;top:50%;transform:translateY(-50%);
+  color:rgba(0,197,255,0.6);pointer-events:none;display:flex;
+}
+.search-input{
+  width:100%;
+  height:42px;
+  padding:0 76px 0 38px;
+  background:#0d0d0d;
+  border:1px solid rgba(0,197,255,0.3);
+  border-radius:10px;
+  color:#fff;
+  font-family:"Roboto",sans-serif;
+  font-size:16px;
+  outline:none;
+  transition:border-color .2s,box-shadow .2s;
+}
+.search-input::placeholder{color:rgba(0,197,255,0.45);}
+.search-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,197,255,0.18);}
+.search-input::-webkit-search-cancel-button{display:none;}
+.search-kbd{
+  position:absolute;right:10px;top:50%;transform:translateY(-50%);
+  font-family:"Roboto",sans-serif;font-size:12px;font-weight:700;
+  color:rgba(0,197,255,0.55);
+  border:1px solid rgba(0,197,255,0.25);border-radius:6px;
+  padding:1px 7px;pointer-events:none;
+}
+.search-clear{
+  position:absolute;right:6px;top:50%;transform:translateY(-50%);
+  height:32px;padding:0 10px;
+  background:rgba(0,197,255,0.12);
+  border:1px solid rgba(0,197,255,0.25);border-radius:8px;
+  color:var(--accent);
+  font-family:"Roboto",sans-serif;font-size:12px;font-weight:700;letter-spacing:.5px;
+  cursor:pointer;
+}
+.search-clear:hover{background:rgba(0,197,255,0.22);}
+.search-status{
+  font-size:12px;font-weight:500;letter-spacing:.5px;
+  color:var(--text-sec);
+  margin:0 0 16px;
+}
+.search-status b{color:var(--accent);}
+.search-empty{
+  text-align:center;
+  padding:48px 16px;
+  border:1px dashed var(--card-border);
+  border-radius:14px;
+  color:var(--text-sec);
+  font-size:16px;
+  margin-bottom:36px;
+}
+.search-empty button{
+  margin-top:14px;
+  height:40px;padding:0 18px;
+  background:var(--btn-in-bg);
+  border:1px solid var(--btn-in-border);border-radius:8px;
+  color:var(--btn-in-text);
+  font-family:"Roboto",sans-serif;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
+  cursor:pointer;
+}
+.c-name mark{background:rgba(0,197,255,0.25);color:inherit;border-radius:3px;padding:0 1px;}
+.card.search-top{border-color:var(--card-hover-border);box-shadow:0 0 0 2px rgba(0,197,255,0.25);}
+
 /* ── RESPONSIVE ── */
 @media(max-width:768px){
   .logo-hero img{max-width:100%;}
@@ -389,6 +463,12 @@ body::before{
   .grid{grid-template-columns:1fr;}
   .dash-title{font-size:13px;letter-spacing:2px;}
   .tog-label{display:none;}
+}
+@media(max-width:640px){
+  .topbar{row-gap:8px;}
+  .topbar-left{flex:1 1 0;}
+  .search-wrap{order:3;flex:1 1 100%;max-width:none;}
+  .search-kbd{display:none;}
 }
 
 /* ── VERSION BADGE ── */
@@ -607,13 +687,17 @@ body::before{
       <div class="dash-title">Automation Dashboard</div>
       <div class="dash-sub">51 Integrated Tools &nbsp;·&nbsp; iINTELLIGENCEi</div>
       <div class="ver-changelog">
-        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v4.7 &nbsp;LIVE</div>
+        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v4.8 &nbsp;LIVE</div>
         <div class="ver-changelog-popup">
           <div class="vcl-title">Version History</div>
           <div class="vcl-row vcl-current">
+            <span class="vcl-ver">v4.8</span>
+            <span class="vcl-desc">51 tools &middot; <b>Search web apps</b> in the top bar &mdash; filters as you type across tool names, sections, addresses and button descriptions; empty sections hide, a count shows the matches, <b>/</b> or <b>Ctrl+K</b> jumps to the box, <b>Esc</b> clears and <b>Enter</b> opens the first match. Works at phone width.</span>
+            <span class="vcl-tag">Current</span>
+          </div>
+          <div class="vcl-row">
             <span class="vcl-ver">v4.7</span>
             <span class="vcl-desc">51 tools &middot; <b>IBI GST Report Generator</b> (seller edition) moves to pay-per-return: one free trial run, ₹299 per report as a credit, ₹2,999 a year or ₹6,999 for three years of unlimited runs &mdash; positioned between GST Tool (₹99/mo software) and ClearTax / IndiaFilings (₹499&ndash;998/mo assisted filing). Card line updated.</span>
-            <span class="vcl-tag">Current</span>
           </div>
           <div class="vcl-row">
             <span class="vcl-ver">v4.6</span>
@@ -734,6 +818,12 @@ body::before{
         </div>
       </div>
     </div>
+    <div class="search-wrap" role="search">
+      <span class="search-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
+      <input type="search" id="toolSearch" class="search-input" placeholder="Search web apps…" aria-label="Search web apps" autocomplete="off" spellcheck="false" enterkeyhint="go">
+      <span class="search-kbd" id="searchKbd">/</span>
+      <button type="button" class="search-clear" id="searchClear" hidden aria-label="Clear search">Clear</button>
+    </div>
     <div class="tog-wrap">
       <span class="tog-label" id="togLabel">Dark Mode</span>
       <div class="tog-switch" onclick="toggleTheme()" title="Toggle light / dark">
@@ -745,6 +835,12 @@ body::before{
   </div>
 
   <div class="content">
+
+  <div class="search-status" id="searchStatus" aria-live="polite" hidden></div>
+  <div class="search-empty" id="searchEmpty" hidden>
+    <div>No web app matches “<span id="searchEmptyQ"></span>”.</div>
+    <button type="button" id="searchEmptyClear">Clear search</button>
+  </div>
 
   <!-- Management -->
   <section class="cat">
@@ -1557,6 +1653,122 @@ if(s){
   document.documentElement.setAttribute("data-theme",s);
   document.getElementById("togLabel").textContent=s==="dark"?"Dark Mode":"Light Mode";
 }
+
+/* ── SEARCH ──
+   Filters as you type. Every word typed must appear somewhere in the card:
+   its name, section, address line, button labels or button tooltips (so
+   "gstr" finds the GST tools and "sheet" finds cards with a sheet link).
+   Sections with no match hide. "/" or Ctrl+K focuses, Esc clears,
+   Enter opens the first match. */
+(function(){
+  var input=document.getElementById("toolSearch");
+  var clearBtn=document.getElementById("searchClear");
+  var kbd=document.getElementById("searchKbd");
+  var status=document.getElementById("searchStatus");
+  var empty=document.getElementById("searchEmpty");
+  var emptyQ=document.getElementById("searchEmptyQ");
+  var sections=[].slice.call(document.querySelectorAll("section.cat"));
+  var total=0;
+
+  function norm(t){return (t||"").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g,"").replace(/\s+/g," ");}
+
+  var items=[];
+  sections.forEach(function(sec){
+    var catTitle=(sec.querySelector(".cat-title")||{}).textContent||"";
+    [].slice.call(sec.querySelectorAll(".card")).forEach(function(card){
+      var nameEl=card.querySelector(".c-name");
+      var parts=[nameEl?nameEl.textContent:"",catTitle];
+      var u=card.querySelector(".c-url");if(u)parts.push(u.textContent);
+      [].slice.call(card.querySelectorAll("a")).forEach(function(a){
+        parts.push(a.textContent,a.getAttribute("title")||"",a.getAttribute("href")||"");
+      });
+      items.push({card:card,sec:sec,nameEl:nameEl,name:nameEl?nameEl.textContent:"",hay:norm(parts.join(" "))});
+      total++;
+    });
+  });
+
+  function esc(t){return t.replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+  function highlight(it,words){
+    if(!it.nameEl)return;
+    if(!words.length){it.nameEl.textContent=it.name;return;}
+    var lower=it.name.toLowerCase(),marks=[];
+    words.forEach(function(w){
+      var i=lower.indexOf(w);
+      while(i>-1){marks.push([i,i+w.length]);i=lower.indexOf(w,i+w.length);}
+    });
+    if(!marks.length){it.nameEl.textContent=it.name;return;}
+    marks.sort(function(a,b){return a[0]-b[0];});
+    var out="",pos=0;
+    marks.forEach(function(m){
+      if(m[1]<=pos)return;
+      var s=Math.max(m[0],pos);
+      out+=esc(it.name.slice(pos,s))+"<mark>"+esc(it.name.slice(s,m[1]))+"</mark>";
+      pos=m[1];
+    });
+    it.nameEl.innerHTML=out+esc(it.name.slice(pos));
+  }
+
+  var first=null;
+  function run(){
+    var q=input.value.trim();
+    var words=norm(q).split(" ").filter(Boolean);
+    var shown=0,best=-1;first=null;
+    items.forEach(function(it){
+      var ok=words.every(function(w){return it.hay.indexOf(w)>-1;});
+      it.card.hidden=!ok;
+      it.card.classList.remove("search-top");
+      if(ok){
+        shown++;
+        // Best match = most words found in the tool's NAME (then the earliest
+        // card), so "finance tracker" picks Finance Tracker, not a card that
+        // only matched through its section title.
+        var nm=norm(it.name),score=0;
+        words.forEach(function(w){if(nm.indexOf(w)>-1)score+=10;if(nm.indexOf(w)===0)score+=1;});
+        if(score>best){best=score;first=it;}
+      }
+      highlight(it,words);
+    });
+    sections.forEach(function(sec){
+      sec.hidden=!sec.querySelector(".card:not([hidden])");
+    });
+    var active=words.length>0;
+    clearBtn.hidden=!active;
+    kbd.hidden=active;
+    status.hidden=!active||shown===0;
+    empty.hidden=!active||shown>0;
+    if(active&&shown>0){
+      status.innerHTML="<b>"+shown+"</b> of "+total+" web apps match &nbsp;·&nbsp; Enter opens <b></b>";
+      status.querySelector("b:last-child").textContent=first.name;
+      first.card.classList.add("search-top");
+    }
+    if(active&&shown===0)emptyQ.textContent=q;
+  }
+
+  function clear(){input.value="";run();input.focus();}
+
+  input.addEventListener("input",function(){
+    run();
+    if(window.scrollY>80)window.scrollTo(0,0);
+  });
+  input.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){
+      if(input.value){e.preventDefault();clear();}else{input.blur();}
+    }else if(e.key==="Enter"){
+      e.preventDefault();
+      var link=first&&input.value.trim()&&first.card.querySelector("a[href]");
+      if(link)window.open(link.href,"_blank","noopener");
+    }
+  });
+  clearBtn.addEventListener("click",clear);
+  document.getElementById("searchEmptyClear").addEventListener("click",clear);
+  document.addEventListener("keydown",function(e){
+    var t=e.target,typing=t&&(t.tagName==="INPUT"||t.tagName==="TEXTAREA"||t.isContentEditable);
+    if((e.key==="/"&&!typing&&!e.ctrlKey&&!e.metaKey)||((e.ctrlKey||e.metaKey)&&(e.key==="k"||e.key==="K"))){
+      e.preventDefault();input.focus();input.select();
+    }
+  });
+  run();
+})();
 </script>
 </body>
 </html>
