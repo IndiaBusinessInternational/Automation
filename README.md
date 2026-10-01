@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v5.5
+# IBI Automation Dashboard v5.6
+
+**v5.6** — TSM Personal Transactions Tracker renamed **TSM Finance Tracker** on its card.
 
 **v5.5** — Mini Personal Finance Tracker renamed **Mini Finance Tracker**; its card gains a **View Sheet** button (the sheet opens only for the signed-in owner).
 
