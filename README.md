@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v5.6
+# IBI Automation Dashboard v5.7
+
+**v5.7** — **IBI Amazon A+ Content** (aplus.indiabusinessinternational.online) added to eCommerce Operations, after the Listing Generator. 60 tools.
 
 **v5.6** — TSM Personal Transactions Tracker renamed **TSM Finance Tracker** on its card.
 
