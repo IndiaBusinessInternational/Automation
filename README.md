@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v5.7
+# IBI Automation Dashboard v5.8
+
+**v5.8** — **IBI Amazon A+ Content** added to SaaS Digital Products as a worldwide IBI Apps edition (apps.indiabusinessinternational.online/aplus/). 61 tools.
 
 **v5.7** — **IBI Amazon A+ Content** (aplus.indiabusinessinternational.online) added to eCommerce Operations, after the Listing Generator. 60 tools.
 
