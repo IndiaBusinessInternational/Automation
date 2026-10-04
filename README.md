@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v5.9
+# IBI Automation Dashboard v6.0
+
+**v6.0** — **IBI Password Vault** (passwords.indiabusinessinternational.online) added next to IBI Documents: our own zero-knowledge password manager. 62 tools.
 
 **v5.8** — **IBI Amazon A+ Content** added to SaaS Digital Products as a worldwide IBI Apps edition (apps.indiabusinessinternational.online/aplus/). 61 tools.
 
