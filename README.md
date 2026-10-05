@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.1
+# IBI Automation Dashboard v6.2
+
+**v6.2** — IBI PDF ToolKit Pro yearly $47.99 (was $59.99) outside India; ₹3,399 in India unchanged. 63 tools.
 
 **v6.1** — **IBI PDF ToolKit** added to SaaS Digital Products as a worldwide IBI Apps product (apps.indiabusinessinternational.online/pdf/). 63 tools.
 
