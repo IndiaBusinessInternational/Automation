@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.0
+# IBI Automation Dashboard v6.1
+
+**v6.1** — **IBI PDF ToolKit** added to SaaS Digital Products as a worldwide IBI Apps product (apps.indiabusinessinternational.online/pdf/). 63 tools.
 
 **v6.0** — **IBI Password Vault** (passwords.indiabusinessinternational.online) added next to IBI Documents: our own zero-knowledge password manager. 62 tools.
 
