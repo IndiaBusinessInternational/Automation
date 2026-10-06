@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.2
+# IBI Automation Dashboard v6.3
+
+**v6.3** — **IBI Cloud Storage** (cloud.indiabusinessinternational.online) added next to IBI Password Vault: team file storage on the CEO's 5 TB Google Drive. 64 tools.
 
 **v6.2** — IBI PDF ToolKit Pro yearly $47.99 (was $59.99) outside India; ₹3,399 in India unchanged. 63 tools.
 
