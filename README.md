@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.3
+# IBI Automation Dashboard v6.4
+
+**v6.4** — **IBI Palmistry** (palmistry.indiabusinessinternational.online) added in a new **Public Apps** section, with an **AI Engine** button for the CEO's engine switch. 65 tools.
 
 **v6.3** — **IBI Cloud Storage** (cloud.indiabusinessinternational.online) added next to IBI Password Vault: team file storage on the CEO's 5 TB Google Drive. 64 tools.
 
