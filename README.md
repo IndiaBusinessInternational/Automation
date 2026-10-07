@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.5
+# IBI Automation Dashboard v6.6
+
+**v6.6** — IBI Screen Recorder Studio card now opens **recorder.indiabusinessinternational.online**. 66 tools.
 
 **v6.5** — **IBI Screen Recorder Studio** (indiabusinessinternational.github.io/ScreenRecorderStudio/) added to **Public Apps**: OBS-style browser screen recorder. 66 tools.
 
