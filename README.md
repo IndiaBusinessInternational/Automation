@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.4
+# IBI Automation Dashboard v6.5
+
+**v6.5** — **IBI Screen Recorder Studio** (indiabusinessinternational.github.io/ScreenRecorderStudio/) added to **Public Apps**: OBS-style browser screen recorder. 66 tools.
 
 **v6.4** — **IBI Palmistry** (palmistry.indiabusinessinternational.online) added in a new **Public Apps** section, with an **AI Engine** button for the CEO's engine switch. 65 tools.
 
