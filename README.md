@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.6
+# IBI Automation Dashboard v6.7
+
+**v6.7** — **IBI Palmistry Pro** (apps.indiabusinessinternational.online/palmistry/) added to SaaS Digital Products: Free basic reading a day; Pro $9.99 / ₹399, $29.99 / ₹2,999 a year. 67 tools.
 
 **v6.6** — IBI Screen Recorder Studio card now opens **recorder.indiabusinessinternational.online**. 66 tools.
 
