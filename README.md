@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.7
+# IBI Automation Dashboard v6.8
+
+**v6.8** — **IBI eCommerce CEO** (ceo.indiabusinessinternational.online) added at the top in a new **CEO** section: net profit against the Rs 2,00,000 monthly target, marketplace and product P&L, returns with reasons and the daily CEO brief, from the IBI ERP. 68 tools.
 
 **v6.7** — **IBI Palmistry Pro** (apps.indiabusinessinternational.online/palmistry/) added to SaaS Digital Products: Free basic reading a day; Pro $9.99 / ₹399, $29.99 / ₹2,999 a year. 67 tools.
 
