@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.11
+# IBI Automation Dashboard v6.12
+
+**v6.12** — Layout fix: the IBI Palmistry Pro card was nested inside the IBI PDF ToolKit card; it is its own card again.
 
 **v6.11** — IBI Palmistry card: the CEO button is now **👑 Owner** (owner unlock with the CEO PIN + AI engine), and the card mentions 🔊 Listen.
 
