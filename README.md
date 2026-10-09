@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.8
+# IBI Automation Dashboard v6.9
+
+**v6.9** — **IBI Infotainment Media** (media.indiabusinessinternational.online) added to **Public Apps**: the IBI video platform, YouTube-style; Studio for creators, Admin for the CEO; videos on the IBI Google Drive. 69 tools.
 
 **v6.8** — **IBI eCommerce CEO** (ceo.indiabusinessinternational.online) added at the top in a new **CEO** section: net profit against the Rs 2,00,000 monthly target, marketplace and product P&L, returns with reasons and the daily CEO brief, from the IBI ERP. 68 tools.
 
