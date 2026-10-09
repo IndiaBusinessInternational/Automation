@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.9
+# IBI Automation Dashboard v6.10
+
+**v6.10** — IBI Infotainment Media card: fed by the IBI YouTube Grower (9 channels, news kept 90 days), new **Grower bridge** button. 69 tools.
 
 **v6.9** — **IBI Infotainment Media** (media.indiabusinessinternational.online) added to **Public Apps**: the IBI video platform, YouTube-style; Studio for creators, Admin for the CEO; videos on the IBI Google Drive. 69 tools.
 
