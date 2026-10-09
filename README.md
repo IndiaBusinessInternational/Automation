@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.10
+# IBI Automation Dashboard v6.11
+
+**v6.11** — IBI Palmistry card: the CEO button is now **👑 Owner** (owner unlock with the CEO PIN + AI engine), and the card mentions 🔊 Listen.
 
 **v6.10** — IBI Infotainment Media card: fed by the IBI YouTube Grower (9 channels, news kept 90 days), new **Grower bridge** button. 69 tools.
 
