@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.12
+# IBI Automation Dashboard v6.13
+
+**v6.13** — Phones edge to edge (CEO, 11 Oct 2026): up to 640px the cards are full-bleed (no side border, radius or shadow) with 10px inner sides, no outer gutter, and the page can never be wider than the screen.
 
 **v6.12** — Layout fix: the IBI Palmistry Pro card was nested inside the IBI PDF ToolKit card; it is its own card again.
 
