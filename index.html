@@ -477,7 +477,7 @@ body::before{
   .topbar-left{flex:1 1 0;}
   .search-wrap{order:3;flex:1 1 100%;max-width:none;}
   .search-kbd{display:none;}
-  /* v6.13 - phones edge to edge (CEO 11 Oct 2026: "edge to edge with no padding to make screen bigger"):
+  /* v6.13/v6.14 - phones edge to edge (CEO 11 Oct 2026: "edge to edge with no padding to make screen bigger"):
      no outer gutter, full-bleed cards (no side border / radius / shadow), 10px inner sides (the least that keeps
      letters off curved screen edges), top bar 8px; the page is never wider than the screen (clip, not hidden, so
      the sticky top bar keeps working) and long words break inside their card. */
@@ -487,7 +487,7 @@ body::before{
   .cat{margin-bottom:20px;}
   .cat-header{padding:9px 10px;margin-bottom:8px;border-radius:0;}
   .grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;}
-  .card{border-radius:0;border-left:0;border-right:0;box-shadow:none;padding:14px 10px 12px;overflow-wrap:anywhere;}
+  .card{border-radius:0;border-left:0;border-right:0;box-shadow:none;padding:14px 10px 12px;overflow-wrap:break-word;}
   .card::after{border-radius:0;}
   .card:hover{box-shadow:none;}
   .search-empty{margin-left:10px;margin-right:10px;}
@@ -595,13 +595,17 @@ body::before{
       <div class="dash-title">Automation Dashboard</div>
       <div class="dash-sub">69 Integrated Tools &nbsp;·&nbsp; iINTELLIGENCEi</div>
       <div class="ver-changelog">
-        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v6.13 &nbsp;LIVE</div>
+        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v6.14 &nbsp;LIVE</div>
         <div class="ver-changelog-popup">
           <div class="vcl-title">Version History</div>
           <div class="vcl-row vcl-current">
+            <span class="vcl-ver">v6.14</span>
+            <span class="vcl-desc">69 tools &middot; <b>Phones: long words</b> (11 Oct 2026): a long word now breaks only when it would run off the card, never inside a button label.</span>
+            <span class="vcl-tag">Current</span>
+          </div>
+          <div class="vcl-row">
             <span class="vcl-ver">v6.13</span>
             <span class="vcl-desc">69 tools &middot; <b>Phones edge to edge</b> (11 Oct 2026): on a phone the cards fill the screen width with 10px inner sides, no outer gutter, and the page never scrolls sideways.</span>
-            <span class="vcl-tag">Current</span>
           </div>
           <div class="vcl-row">
             <span class="vcl-ver">v6.12</span>

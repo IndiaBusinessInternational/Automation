@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.13
+# IBI Automation Dashboard v6.14
+
+**v6.14** — Phones: cards use `overflow-wrap: break-word` (v6.13 used `anywhere`, which can split a button label mid-word).
 
 **v6.13** — Phones edge to edge (CEO, 11 Oct 2026): up to 640px the cards are full-bleed (no side border, radius or shadow) with 10px inner sides, no outer gutter, and the page can never be wider than the screen.
 
