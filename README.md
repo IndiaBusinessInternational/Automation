@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.15
+# IBI Automation Dashboard v6.16
+
+**v6.16** — IBI News card: second button renamed **Local Link** (CEO); `http://localhost:9122/` is now permanent (Keep Alive task starts `IBI News\start-local.vbs`).
 
 **v6.15** — IBI News card: second button **Local test copy** → `http://localhost:9122/` (CEO, 13 Oct 2026; office laptop only, works only while a test copy is running). IBI News itself is now public (v7.5.1).
 
