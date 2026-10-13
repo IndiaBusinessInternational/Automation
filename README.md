@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.14
+# IBI Automation Dashboard v6.15
+
+**v6.15** — IBI News card: second button **Local test copy** → `http://localhost:9122/` (CEO, 13 Oct 2026; office laptop only, works only while a test copy is running). IBI News itself is now public (v7.5.1).
 
 **v6.14** — Phones: cards use `overflow-wrap: break-word` (v6.13 used `anywhere`, which can split a button label mid-word).
 
