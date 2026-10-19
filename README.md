@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.17
+# IBI Automation Dashboard v6.18
+
+**v6.18** — New section **Our Marketplace Stores** (19 Oct 2026): store link + seller panel for Amazon.in, Flipkart & Shopsy, Meesho, ShopClues, Bazaar.in (new; not Amazon Bazaar) and JioMart (awaiting approval).
 
 **v6.17** — **IBI ScannerC Pro** added to SaaS Digital Products (IBI Apps v1.20.0, 19 Oct 2026): Free scanning; Pro $2.99 / ₹149 a month, $19.99 / ₹999 a year; a yearly plan includes IBI PDF ToolKit Pro.
 
