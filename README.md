@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.18
+# IBI Automation Dashboard v6.19
+
+**v6.19** — JioMart card: Our Store opens our live JioMart products (jiomart.com search "iINTELLIGENCEi"). JioMart has no seller store page.
 
 **v6.18** — New section **Our Marketplace Stores** (19 Oct 2026): store link + seller panel for Amazon.in, Flipkart & Shopsy, Meesho, ShopClues, Bazaar.in (new; not Amazon Bazaar) and JioMart (awaiting approval).
 
