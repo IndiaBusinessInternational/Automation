@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.19
+# IBI Automation Dashboard v6.20
+
+**v6.20** — IBI Horoscope Pro added to SaaS Digital Products (IBI Apps v1.22.0): Open App + Sales Page; 77 tools.
 
 **v6.19** — JioMart card: Our Store opens our live JioMart products (jiomart.com search "iINTELLIGENCEi"). JioMart has no seller store page.
 
