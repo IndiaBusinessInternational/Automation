@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.22
+# IBI Automation Dashboard v6.23
+
+**v6.23** — Share this app button beside the theme switch (`ibi-share.js`); WhatsApp link preview fixed (absolute `og-banner.jpg`, 1200×630 JPEG under 300 KB, `og:url`, `og:image:type`); the old `og-banner.png` stays.
 
 **v6.22** — Edge to edge on every screen: no centred 1200px column on laptops; more cards per row.
 
