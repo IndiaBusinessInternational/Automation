@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.23
+# IBI Automation Dashboard v6.24
+
+**v6.24** — IBI Scientific Calculator added to Public Apps (scientific.indiabusinessinternational.online); 79 tools.
 
 **v6.23** — Share this app button beside the theme switch (`ibi-share.js`); WhatsApp link preview fixed (absolute `og-banner.jpg`, 1200×630 JPEG under 300 KB, `og:url`, `og:image:type`); the old `og-banner.png` stays.
 
