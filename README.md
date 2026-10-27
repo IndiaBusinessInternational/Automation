@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.25
+# IBI Automation Dashboard v6.26
+
+**v6.26** — IBI Scientific Calculator card updated for v1.2 (always-visible Install); 79 tools.
 
 **v6.25** — IBI Scientific Calculator card updated for v1.1 (built-in Help assistant); 79 tools.
 
