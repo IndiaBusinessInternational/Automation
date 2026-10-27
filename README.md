@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.21
+# IBI Automation Dashboard v6.22
+
+**v6.22** — Edge to edge on every screen: no centred 1200px column on laptops; more cards per row.
 
 **v6.21** — IBI Audios & Radios added to Public Apps (radio.indiabusinessinternational.online): live radio on a 3D globe; 78 tools.
 

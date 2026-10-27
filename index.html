@@ -497,6 +497,23 @@ body::before{
   .grid{grid-template-columns:minmax(0,1fr);}
 }
 
+/* v6.22 - edge to edge on EVERY screen (CEO rule 15 Oct 2026; Founder's yes 27 Oct 2026): the 1200px centred
+   column is gone, so laptops use the full width with more cards per row. No outer gutter, full-bleed cards
+   (no side border / radius / shadow), 10px inner sides. It sits after the phone blocks so it also beats the
+   768px tablet gutter; the phone column counts (2 / 1 per row) are not touched. */
+html,body{overflow-x:clip;}
+.wrap{max-width:none;}
+.topbar{padding-left:10px;padding-right:10px;}
+.content{padding:8px 0 0;}
+.cat{margin-bottom:24px;}
+.cat-header{padding-left:10px;padding-right:10px;margin-bottom:8px;border-radius:0;}
+.grid{gap:8px;}
+.card{border-radius:0;border-left:0;border-right:0;box-shadow:none;padding-left:10px;padding-right:10px;overflow-wrap:break-word;}
+.card::after{border-radius:0;}
+.card:hover{box-shadow:none;}
+.search-empty{margin-left:10px;margin-right:10px;border-radius:0;}
+.footer{margin-left:10px;margin-right:10px;}
+
 /* ── VERSION BADGE ── */
 .ver-badge-dash{
   display:inline-flex;align-items:center;gap:5px;
@@ -595,13 +612,17 @@ body::before{
       <div class="dash-title">Automation Dashboard</div>
       <div class="dash-sub">78 Integrated Tools &nbsp;·&nbsp; iINTELLIGENCEi</div>
       <div class="ver-changelog">
-        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v6.21 &nbsp;LIVE</div>
+        <div class="ver-badge-dash"><span class="ver-dot-dash"></span>v6.22 &nbsp;LIVE</div>
         <div class="ver-changelog-popup">
           <div class="vcl-title">Version History</div>
           <div class="vcl-row vcl-current">
+            <span class="vcl-ver">v6.22</span>
+            <span class="vcl-desc">78 tools &middot; <b>Edge to edge on laptops too</b> (27 Oct 2026): the narrow centred column is gone; the dashboard fills the whole screen with more cards per row, 10px inner sides and no outer margins.</span>
+            <span class="vcl-tag">Current</span>
+          </div>
+          <div class="vcl-row">
             <span class="vcl-ver">v6.21</span>
             <span class="vcl-desc">78 tools &middot; <b>IBI Audios &amp; Radios</b> added to Public Apps (27 Oct 2026): live radio on a 3D globe &mdash; 50,000 stations in 218 countries, opens on Radio Suno Malayalam 91.7 FM (Kochi); language filters (Malayalam, Tamil, Hindi&hellip;), genres, sleep timer, alarm, favourites, share links.</span>
-            <span class="vcl-tag">Current</span>
           </div>
           <div class="vcl-row">
             <span class="vcl-ver">v6.20</span>
