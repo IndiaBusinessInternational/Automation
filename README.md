@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.26
+# IBI Automation Dashboard v6.27
+
+**v6.27** — IBI Scientific Calculator card text no longer names an app version; 79 tools.
 
 **v6.26** — IBI Scientific Calculator card updated for v1.2 (always-visible Install); 79 tools.
 
