@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.24
+# IBI Automation Dashboard v6.25
+
+**v6.25** — IBI Scientific Calculator card updated for v1.1 (built-in Help assistant); 79 tools.
 
 **v6.24** — IBI Scientific Calculator added to Public Apps (scientific.indiabusinessinternational.online); 79 tools.
 
