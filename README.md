@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.27
+# IBI Automation Dashboard v6.28
+
+**v6.28** — IBI Spices added to Pricing Strategy (spices.indiabusinessinternational.online); 80 tools.
 
 **v6.27** — IBI Scientific Calculator card text no longer names an app version; 79 tools.
 
