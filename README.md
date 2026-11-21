@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.29
+# IBI Automation Dashboard v6.30
+
+**v6.30** — IBI Auto Software card text: Tamil added (app v1.1); 81 tools.
 
 **v6.29** — IBI Auto Software added to Public Apps (auto.indiabusinessinternational.online); 81 tools.
 
