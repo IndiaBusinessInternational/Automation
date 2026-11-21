@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.28
+# IBI Automation Dashboard v6.29
+
+**v6.29** — IBI Auto Software added to Public Apps (auto.indiabusinessinternational.online); 81 tools.
 
 **v6.28** — IBI Spices added to Pricing Strategy (spices.indiabusinessinternational.online); 80 tools.
 
