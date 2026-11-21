@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.31
+# IBI Automation Dashboard v6.32
+
+**v6.32** — IBI Auto Software card text: Auto Entrepreneurs, balance to return (app v1.8); 81 tools.
 
 **v6.31** — IBI Hospitality Industry PoS card renamed IBI Hotel Software (3 months free, then Rs 99 a month by Auto-Pay); 81 tools.
 
