@@ -1,4 +1,6 @@
-# IBI Automation Dashboard v6.32
+# IBI Automation Dashboard v6.33
+
+**v6.33** — IBI CCTV Camera card added to Local Tools (warehouse live view, zoom, pan/tilt, 7-day playback; laptop server, CEO PIN); 82 tools.
 
 **v6.32** — IBI Auto Software card text: Auto Entrepreneurs, balance to return (app v1.8); 81 tools.
 
